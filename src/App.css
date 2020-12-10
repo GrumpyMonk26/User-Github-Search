@@ -7,6 +7,8 @@
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
   --success-color: #28a745;
+  --secondary-color: #24292e;
+  --silver-color: #d4cbcb;
 }
 
 * {
@@ -245,6 +247,29 @@ img {
   color: #333;
 }
 
+.bg-silver,
+.btn-silver,
+.badge-silver,
+.alert-silver {
+  background: var(--silver-color);
+  color: #333;
+  border-radius: 5px;
+}
+
+.bg-secondary,
+.btn-secondary,
+.badge-secondary,
+.alert-secondary {
+  background: var(--secondary-color);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-secondary:hover {
+  opacity: 0.8;
+  color: #fff !important;
+}
+
 .btn-primary,
 .bg-primary,
 .badge-primary,
@@ -295,7 +320,7 @@ img {
 }
 
 .btn:hover {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .bg-light,
